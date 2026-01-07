@@ -1,1 +1,1 @@
-# -Correct-Mood-based-music-Generator
+# Mood-based-music-Generator
