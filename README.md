@@ -9,6 +9,14 @@ Tools:
 - **Spotify API** for the Music library api( since its fee and has a large collection of music from  various languages)
 - For the **AI/Filtering LLM**, i will try to make my own. If it is not finished, then I will either use the **OpenAI API**(preferred) or the Anthropic Claude API, they are both good, free and reliable LLMs to be worked with. 
 
+## Development Plan
+1. Create dashboard page with mood selector --Almost finished
+2. Integrate Spotify API for music search
+3. Build music player component
+4. Add recommendation algorithm
+5. Track listening history in database
+6. Add AI-powered recommendations
+
 ## The file structure for now
 ```
 music-mood-player/
@@ -38,12 +46,3 @@ music-mood-player/
 ├── .env.local                        # Environment variables (secret)
 └── package.json
 ```
-
-## Development Plan
-1. Create dashboard page with mood selector --Almost finished
-2. Integrate Spotify API for music search
-3. Build music player component
-4. Add recommendation algorithm
-5. Track listening history in database
-6. Add AI-powered recommendations
-
