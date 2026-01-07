@@ -1,6 +1,6 @@
 # Mood-based-music-Generator
 
-##System Overview
+## System Overview
 Tools: 
 - **Typescript** for better and easier debugging and increasing code reliability
 - **Tailwind CSS** for the quick styling
@@ -9,7 +9,7 @@ Tools:
 - **Spotify API** for the Music library api( since its fee and has a large collection of music from  various languages)
 - For the **AI/Filtering LLM**, i will try to make my own. If it is not finished, then I will either use the **OpenAI API**(preferred) or the Anthropic Claude API, they are both good, free and reliable LLMs to be worked with. 
 
-##The file structure for now
+## The file structure for now
 music-mood-player/
 ├── src/
 │   ├── app/                          # Next.js App Router
@@ -37,7 +37,7 @@ music-mood-player/
 ├── .env.local                        # Environment variables (secret)
 └── package.json
 
-##Development Plan
+## Development Plan
 Week 1: Create dashboard page with mood selector --Almost finished
 Week 2: Integrate Spotify API for music search
 Week 3: Build music player component
