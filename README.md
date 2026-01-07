@@ -10,6 +10,7 @@ Tools:
 - For the **AI/Filtering LLM**, i will try to make my own. If it is not finished, then I will either use the **OpenAI API**(preferred) or the Anthropic Claude API, they are both good, free and reliable LLMs to be worked with. 
 
 ## The file structure for now
+```
 music-mood-player/
 ├── src/
 │ ├── app/ # Next.js App Router
@@ -36,6 +37,7 @@ music-mood-player/
 │
 ├── .env.local # Environment variables (secret)
 └── package.json
+```
 
 ## Development Plan
 1. Create dashboard page with mood selector --Almost finished
