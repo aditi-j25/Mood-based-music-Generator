@@ -13,29 +13,29 @@ Tools:
 ```
 music-mood-player/
 ├── src/
-│ ├── app/ # Next.js App Router
-│ │ ├── page.tsx # Landing page (public)
-│ │ ├── layout.tsx # Root layout
-│ │ ├── login/
-│ │ │ └── page.tsx # Login page (public)
-│ │ ├── signup/
-│ │ │ └── page.tsx # Signup page (public)
-│ │ └── dashboard/
-│ │ ├── page.tsx # Server component (protected)
-│ │ └── DashboardClient.tsx # Client component
-│ │
-│ ├── lib/ # Utility libraries
-│ │ ├── supabase.ts # Client-side Supabase
-│ │ ├── supabase-server.ts # Server-side Supabase
-│ │ └── database.ts # Database helper functions
-│ │
-│ ├── types/ # TypeScript definitions
-│ │ ├── database.types.ts # Supabase table types
-│ │ └── index.ts # App-specific types
-│ │
-│ └── proxy.ts # Auth protection
+│   ├── app/                          # Next.js App Router
+│   │   ├── page.tsx                  # Landing page (public)
+│   │   ├── layout.tsx                # Root layout
+│   │   ├── login/
+│   │   │   └── page.tsx              # Login page (public)
+│   │   ├── signup/
+│   │   │   └── page.tsx              # Signup page (public)
+│   │   └── dashboard/
+│   │       ├── page.tsx              # Server component (protected)
+│   │       └── DashboardClient.tsx   # Client component
+│   │
+│   ├── lib/                          # Utility libraries
+│   │   ├── supabase.ts               # Client-side Supabase
+│   │   ├── supabase-server.ts        # Server-side Supabase
+│   │   └── database.ts               # Database helper functions
+│   │
+│   ├── types/                        # TypeScript definitions
+│   │   ├── database.types.ts         # Supabase table types
+│   │   └── index.ts                  # App-specific types
+│   │
+│   └── middleware.ts                 # Auth protection
 │
-├── .env.local # Environment variables (secret)
+├── .env.local                        # Environment variables (secret)
 └── package.json
 ```
 
